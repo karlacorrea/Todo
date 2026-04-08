@@ -1,0 +1,39 @@
+body {
+  font-family: Arial;
+  max-width: 600px;
+  margin: auto;
+  background: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 5px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-left: 5px solid gray;
+}
+
+.alta { border-color: red; }
+.media { border-color: orange; }
+.baixa { border-color: green; }
+
+.concluida {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
